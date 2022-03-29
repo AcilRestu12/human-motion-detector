@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "author": "Luce Restu",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": 390, "left": 58.87, "attrs": {} },
+    {
+      "type": "wokwi-neopixel-canvas",
+      "id": "neopixels",
+      "top": -121.05,
+      "left": -17.41,
+      "attrs": { "rows": "16", "cols": "16", "pixelate": "1", "matrixLayout": "serpentine" }
+    },
+    { "type": "wokwi-pir-motion-sensor", "id": "pir1", "top": 230.97, "left": 450.5, "attrs": {} }
+  ],
+  "connections": [
+    [ "uno:GND.1", "neopixels:VSS", "black", [ "v0", "*", "v16" ] ],
+    [ "uno:3", "neopixels:DIN", "green", [ "v-16", "*", "v8" ] ],
+    [ "uno:5V", "neopixels:VDD", "red", [ "v20", "h-95", "*", "v8" ] ],
+    [ "uno:5V", "pir1:VCC", "red", [ "v54.56", "h275.72" ] ],
+    [ "uno:GND.2", "pir1:GND", "black", [ "v44.85", "h282.42" ] ],
+    [ "uno:4", "pir1:OUT", "green", [ "v-20.5", "h220.65" ] ]
+  ]
+}
