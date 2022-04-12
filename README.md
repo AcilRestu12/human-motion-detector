@@ -1,6 +1,30 @@
 # human-motion-detector
 The project makes a tool to detect human movement using Arduino Uno and LED animation
+<br><br>
+
+## How It Work ?
+
+When the system is powered on then the 16×16 matrix of LEDs will display the bombjack character for the first frame. Then the PIR sensor will emit an electrical signal continuously using infrared waves that are connected to a light detector. If the infrared is disturbed by movement, the 16×16 matrix of LEDs will display the second frame of the bombjack character. Then the system will set up a 16×16 matrix of LEDs to display the first frame of the bombjack character.
+
+<br>
+
+## What Does It Look Like ?
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/89245500/163024033-4ed751a5-54e4-49ac-afce-94bc071c2504.png" alt="User Interface">
+  <br>
+  <i>Simulation Display</i> 
+</p>
+
+<br>
+
+## Wanna See The Simulation ?
+[Click here to see the simulation](https://wokwi.com/projects/327477187919741523)
+
+
 <br><br><br>
+
+
+# Analsis Requirement
 
 <h2>Latar Belakang</h2
 <p align="justify">
@@ -24,7 +48,3 @@ The project makes a tool to detect human movement using Arduino Uno and LED anim
 <p align="justify">
   Alat ini dirancang untuk membantu pemilik rumah untuk mendeteksi gerakan yang terjadi di rumah, ketika pemilik rumah tidak berada di rumah. Pendeteksi gerakan atau detektor yang dirancang, bertujuan untuk membantu sistem keamanan rumah.
 </p>
-
-
-
-
