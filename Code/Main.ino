@@ -1,13 +1,3 @@
-/*
-Kelompok 11
-Nama Anggota :  
-  1. Alfia Candra Kusumapratiwi   (5200411487)
-  2. Arieska Restu Harpian Dwika  (5200411488)
-  3. Rizky Diar Panuntun          (5200411499)
-  4. Amalia Rizki Wulandari       (5200411501)
-*/
-
-
 #include <avr/pgmspace.h>  
 #include "FastLED.h"      
 #include <LiquidCrystal_I2C.h>
